@@ -4,10 +4,10 @@ class Anagram
 
   def initialize(word)
     @name = word
-  end 
+  end
 
   def match(array)
     array.select {|w| w.split("").sort == @name.split("".sort)}
-end 
+end
 
 end    
